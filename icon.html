@@ -73,7 +73,7 @@
       background-color: #ff4500;
     }
 
-    .tiktok:hover {
+    .weibo:hover {
       background-color: #ff0050;
     }
 
@@ -164,11 +164,18 @@
       <!-- End spotify Icon -->
       
 
-      <!-- Start tiktok Icon -->
-      <div id="tiktok" onclick="navigate(this.id)" class="social tiktok">
-        <span class="icon"><i class="fab fa-tiktok"></i></span>
+      <!-- Start weibo Icon -->
+      <div id="weibo" onclick="navigate(this.id)" class="social weibo">
+        <span class="icon"><i class="fab fa-weibo"></i></span>
       </div>
-      <!-- End tiktok Icon -->
+      <!-- End weibo Icon -->
+
+
+      <!-- Start behance Icon -->
+      <div id="behance" onclick="navigate(this.id)" class="social behance">
+        <span class="icon behance"><i class="fab fa-square-behance"></i></span>
+      </div>
+      <!-- End behance Icon -->
 
       
 
@@ -178,11 +185,7 @@
       </div>
       <!-- End pinterest Icon -->
 
-      <!-- Start behance Icon -->
-      <div id="behance" onclick="navigate(this.id)" class="social behance">
-        <span class="icon behance"><i class="fab fa-square-behance"></i></span>
-      </div>
-      <!-- End behance Icon -->
+
 
     </div>
 
@@ -216,8 +219,8 @@
         else if (id === "reddit") {
           window.open("https://www.reddit.com/", '_blank').focus(); //Add the url to your reddit account
         }
-        else if (id === "tiktok") {
-          window.open("https://www.tiktok.com/", '_blank').focus(); //Add the url to your tiktok account
+        else if (id === "weibo") {
+          window.open("https://weibo.com/", '_blank').focus(); //Add the url to your weibo account
         }
         else if (id === "youtube") {
           window.open("https://www.youtube.com/", '_blank').focus(); //Add the url to your youtube account

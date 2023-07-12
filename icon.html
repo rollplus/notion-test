@@ -44,7 +44,7 @@
       font-size: 1.2em;
     }
 
-    .blog:hover {
+    .spotify:hover {
       background-color: #ffbd2f;
     }
 
@@ -157,11 +157,11 @@
       <!-- End youtube Icon -->
 
       
-      <!-- Start blog Icon -->
-      <div id="blog" onclick="navigate(this.id)" class="social blog">
-        <span class="icon"><i class="fa-solid fa-blog"></i></span>
+      <!-- Start spotify Icon -->
+      <div id="spotify" onclick="navigate(this.id)" class="social spotify">
+        <span class="icon"><i class="fa-solid fa-spotify"></i></span>
       </div>
-      <!-- End blog Icon -->
+      <!-- End spotify Icon -->
       
 
       <!-- Start tiktok Icon -->
@@ -194,8 +194,8 @@
 
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
-        if (id === "blog")
-          window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
+        if (id === "spotify")
+          window.open("https://open.spotify.com/", '_blank').focus(); //Add the url to your spotify
 
         else if (id === "email") {
           window.open("https://mail.google.com/", '_blank').focus(); //Add your email after "mailto:""
